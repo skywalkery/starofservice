@@ -1,0 +1,29 @@
+@import './src/theme/variables';
+
+.signup-second-step {
+    padding: 30px 20px 10px;
+
+    label {
+        width: 100%;
+        text-align: center;
+    }
+
+    .error-field-msg {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-gender {
+        padding: 6px 0;
+        font-size: 12px;
+        transition-property: color, background-color;
+        transition-duration: 300ms, 300ms;
+        transition-timing-function: ease;
+    }
+
+    .btn-gender.active {
+        color: $active-button-color;
+        background-color: $active-button-background-color;
+        border-color: $active-button-border-color;
+    }
+}

@@ -1,0 +1,42 @@
+@import './src/theme/variables';
+
+.date-input {
+    &__container {
+        display: flex;
+    }
+
+    &__dd-input {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right-color: transparent;
+        text-align: center;
+
+        &:focus {
+            border-right-color: $input-border-active-color;
+        }
+    }
+
+    &__mm-input {
+        border-radius: 0;
+        text-align: center;
+
+        &_withoutLeftBorder {
+            border-left-color: transparent;
+        }
+
+        &_withoutRightBorder {
+            border-right-color: transparent;
+        }
+    }
+
+    &__yyyy-input {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left-color: transparent;
+        text-align: center;
+
+        &:focus {
+            border-left-color: $input-border-active-color;
+        }
+    }
+}

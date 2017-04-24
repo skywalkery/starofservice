@@ -1,0 +1,7 @@
+@import './src/theme/variables';
+
+.submit-button {
+    cursor: pointer;
+    color: $brand-color;
+    padding: 5px 0px 5px 5px;
+}

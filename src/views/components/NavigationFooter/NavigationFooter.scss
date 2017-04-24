@@ -1,0 +1,13 @@
+@import './src/theme/variables';
+
+.navigation-footer {
+    border-top: 1px solid $border-color;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .arrow {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+}

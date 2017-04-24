@@ -1,0 +1,17 @@
+@import './src/theme/variables';
+
+.signup-first-step {
+    padding: 40px 20px;
+
+    input {
+        border: none;
+        border-bottom: 1px solid $border-color;
+        border-radius: 0;
+        padding: 0;
+        height: 29px;
+    }
+
+    label {
+        margin-bottom: 0;
+    }
+}

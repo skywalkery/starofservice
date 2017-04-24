@@ -1,0 +1,7 @@
+@import './src/theme/variables';
+
+.back-button {
+    cursor: pointer;
+    color: $light-button-color;
+    padding: 5px 5px 5px 0;
+}

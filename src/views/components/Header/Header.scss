@@ -1,0 +1,10 @@
+@import './src/theme/variables';
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $brand-color;
+    font-size: 14px;
+}

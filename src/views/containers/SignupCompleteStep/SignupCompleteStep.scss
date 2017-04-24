@@ -1,0 +1,26 @@
+@import './src/theme/variables';
+
+.signup-complete-step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    flex: 1;
+
+    .ok-sign {
+        font-size: 120px;
+        color: $success-color;
+        margin-bottom: 30px;
+    }
+
+    .btn-dashboard {
+        color: $brand-color;
+        background-color: $transparent-button-background-color;
+        border-color: $transparent-button-border-color;
+    }
+
+    .arrow {
+        margin-left: 5px;
+    }
+}

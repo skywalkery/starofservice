@@ -1,0 +1,10 @@
+@import './src/theme/variables';
+
+.signup-layout {
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    width: 300px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+}
